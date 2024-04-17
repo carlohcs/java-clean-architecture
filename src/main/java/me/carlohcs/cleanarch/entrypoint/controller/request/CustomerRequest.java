@@ -1,6 +1,6 @@
 package me.carlohcs.cleanarch.entrypoint.controller.request;
 
-import jakarta.validation.constraints.NotBlank;
+import javax.validation.constraints.NotBlank;
 
 // It creates the getters and setters
 import lombok.Data;

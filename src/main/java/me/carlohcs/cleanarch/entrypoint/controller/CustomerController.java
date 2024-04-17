@@ -1,6 +1,5 @@
 package me.carlohcs.cleanarch.entrypoint.controller;
 
-import jakarta.validation.Valid;
 import me.carlohcs.cleanarch.core.domain.Customer;
 import me.carlohcs.cleanarch.core.usecase.DeleteCustomerByIdUseCase;
 import me.carlohcs.cleanarch.core.usecase.FindCustomerByIdUseCase;
@@ -12,6 +11,8 @@ import me.carlohcs.cleanarch.entrypoint.controller.response.CustomerResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/customers")
